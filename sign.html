@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/sign.css">
+    <title>회원가입</title>
+</head>
+
+<body>
+    <div id="container">
+        <div class="main">
+            <div class="main__member">
+                <h1>개인회원가입</h1>
+                <div class="main__menber__border"></div>
+                <div class="main__btn">
+                    <button type="button" class="member">회원</button>
+                    <button type="button" class="company">기업</button>
+                </div>
+            </div>
+
+            <form method="post" class="main__form">
+                <div class="main__form__top">
+                    <div class="main__form__find">
+                        <div class="form__find__left">
+                            <label for="user_id">아이디</label>
+                        </div>
+
+                        <div class="form__find__right">
+                            <input type="text" id="user_id" placeholder="아이디를 입력하세오">
+                        </div>
+                    </div>
+
+                    <div class="main__form__find">
+                        <div class="form__find__left">
+                            <label for="user_ps">비밀번호</label>
+                        </div>
+
+                        <div class="form__find__right">
+                            <input type="password" id="user_ps" placeholder="비밀번호를 입력하세오">
+                        </div>
+                    </div>
+                    <div class="main__form__find">
+                        <div class="form__find__left">
+                            <label for="user_ps_chk">비밀번호 확인</label>
+                        </div>
+
+                        <div class="form__find__right">
+                            <input type="password" id="user_ps_chk" placeholder="비밀번호를 다시 입력하세오">
+                        </div>
+                    </div>
+
+                    <div class="main__form__find">
+                        <div class="form__find__left">
+                            <label for="user_name">이름</label>
+                        </div>
+
+                        <div class="form__find__right">
+                            <input type="text" id="user_name" placeholder="이름을 입력하세오">
+                        </div>
+                    </div>
+
+                    <div class="main__form__find">
+                        <div class="form__find__left">
+                            <p>성별</p>
+                        </div>
+                        <div class="form__find__right">
+                            <div class="main__form__sex">
+                                <div class="form__sex__box">
+                                    <label for="1">
+                                        <input type="radio" id="1" name="sex">
+                                        <p>남성</p>
+                                    </label>
+                                </div>
+
+                                <div class="form__sex__box">
+                                    <label for="2">
+                                        <input type="radio" id="2" name="sex">
+                                        <p>여성</p>
+                                    </label>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="main__form__find">
+                        <div class="form__find__left">
+                            <label for="user_date">생년월일</label>
+                        </div>
+
+                        <div class="form__find__right">
+                            <input type="text" id="user_date" placeholder="생년월일을 입력하세요">
+                        </div>
+                    </div>
+
+                    <div class="main__form__find">
+                        <div class="form__find__left">
+                            <label for="user_code">우편번호</label>
+                        </div>
+
+                        <div class="form__find__right">
+                            <input type="text" id="user_code" placeholder="우편번호">
+                            <button type="button">우편번호 찾기</button>
+                        </div>
+                    </div>
+
+                    <div class="main__form__find">
+                        <div class="form__find__left">
+                            <label for="user_address">주소</label>
+                        </div>
+
+                        <div class="form__find__right">
+                            <input type="text" id="user_address" class="addr" placeholder="">
+                        </div>
+                    </div>
+
+                    <div class="main__form__find">
+                        <div class="form__find__left">
+                            <label for="user_detailed">상세주소</label>
+                        </div>
+
+                        <div class="form__find__right">
+                            <input type="text" id="user_detailed" class="addr" placeholder="">
+                        </div>
+                    </div>
+
+                    <div class="main__form__find">
+                        <div class="form__find__left">
+                            <label for="user_number">전화번호</label>
+                        </div>
+
+                        <div class="form__find__right">
+                            <input type="text" id="user_number" placeholder="">
+                        </div>
+                    </div>
+
+                    <div class="main__form__find">
+                        <div class="form__find__left">
+                            <label for="user_email">이메일</label>
+                        </div>
+
+                        <div class="form__find__right">
+                            <input type="email" id="user_email" placeholder="">
+                        </div>
+                    </div>
+
+                    <div class="main__form__find">
+                        <div class="form__find__left">
+                            <label for="email_check">이메일 인증번호</label>
+                        </div>
+
+                        <div class="form__find__right">
+                            <input type="text" id="email_check" placeholder="">
+                        </div>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>
